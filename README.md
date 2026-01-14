@@ -29,7 +29,7 @@ Road map de desarrollo para hacer proyectos con buenas practicas salir con conoc
   Proyecto 3 – ⏳ Próximo
   Lazy-load en imágenes (loading="lazy").
   Favoritos con localStorage.
-  (Aquí también practicaremos useEffect aplicado).
+  Más práctica de useEffect aplicado.
 ⏭️ Fase 4 – Backend y Bases de Datos (pendiente)
   Node.js + Express, rutas/controladores.
   Conexión a DB (MongoDB o SQL), CRUD real.
