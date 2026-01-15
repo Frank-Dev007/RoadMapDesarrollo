@@ -32,11 +32,11 @@ Road map de desarrollo para hacer proyectos con buenas practicas salir con conoc
       - Cubierto: JSX, props, useState, eventos, fetch/async-await, manejo de errores, listas/keys, condicionales.  
       - Buenas prácticas: componentización (SearchBar, MovieList, MovieCard), barrel file, export default/nombrado.  
       - Extras: filtro por tipo, grilla responsive, animaciones hover/focus/tap, respeto a prefers-reduced-motion, cards centradas con ancho máximo.
-    - [ ] Proyecto 2 – en progreso  
-      - Paginación (parámetro page de OMDb).  
-      - Skeletons de carga.  
-      - Accesibilidad: foco visible, aria-live, navegación por teclado.
-    - [ ] Proyecto 3 – pendiente  
+   - [x] Proyecto 2 – Explorador de Cócteles (TheCocktailDB) – completado  
+      - Paginación en cliente (TheCocktailDB no expone `page`; se paginan los resultados localmente)  
+      - Skeletons de carga (respetando `prefers-reduced-motion`)  
+      - Accesibilidad: foco visible, aria-live, navegación por teclado; fuentes aplicadas a inputs/botones; botón “Limpiar”
+   - [ ] Proyecto 3 – pendiente  
       - Lazy-load en imágenes (loading="lazy").  
       - Favoritos con localStorage.  
       - Más práctica de useEffect aplicado.
