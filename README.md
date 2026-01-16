@@ -31,14 +31,19 @@ useEffect (a medida que avanzamos), llamadas a API.
 (Opcional) React Router según necesidad.
 Checklist:
   Proyecto 1 (Buscador de Películas) – completado
+  
     Cubierto: JSX, props, useState, eventos, fetch/async-await, manejo de errores, listas/keys, condicionales.
     Buenas prácticas: componentización (SearchBar, MovieList, MovieCard), barrel file, export default/nombrado.
     Extras: filtro por tipo, grilla responsive, animaciones hover/focus/tap, respeto a prefers-reduced-motion, cards centradas con ancho máximo.
+    
   Proyecto 2 – Explorador de Cócteles (TheCocktailDB) – completado
+  
     Paginación en cliente (TheCocktailDB no expone page; se paginan los resultados localmente)
     Skeletons de carga (respetando prefers-reduced-motion)
     Accesibilidad: foco visible, aria-live, navegación por teclado; fuentes aplicadas a inputs/botones; botón “Limpiar”
+    
   Proyecto 3 – Explorador de Cócteles (mejorado) – completado
+  
     Lazy-load en imágenes (loading="lazy")
     Favoritos con localStorage (toggle y vista de favoritos)
     Más práctica de useEffect aplicado
